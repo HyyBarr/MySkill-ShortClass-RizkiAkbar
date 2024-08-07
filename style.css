@@ -1,0 +1,65 @@
+html body {
+  font-family: 'Poppins';
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profil img {
+  width: 100px;
+  height: 100px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project h2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.project ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.project li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 45%;
+  height: 300px;
+}
+
+.project p {
+  text-align: justify;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
