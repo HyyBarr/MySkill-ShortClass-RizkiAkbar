@@ -21,8 +21,13 @@ header h1 {
 }
 
 .profil img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.profil p {
+  width: 60%;
+  text-align: justify;
 }
 
 .project {
@@ -51,7 +56,7 @@ header h1 {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  width: 45%;
+  width: 75%;
   height: 300px;
 }
 
